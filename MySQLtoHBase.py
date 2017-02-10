@@ -8,10 +8,10 @@ import json
 
 def main(argv):
 
-	hostaddress = "210.125.146.181"
-	username = "root"
-	password = "gac81-344"
-	dbName = "POP"
+	hostaddress = ""
+	username = ""
+	password = ""
+	dbName = ""
 	
 	try:
       		opts, args = getopt.getopt(argv,"h:u:p:d:",["hostaddress=","username=","password", "database"])
